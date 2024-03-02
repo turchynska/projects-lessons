@@ -10,6 +10,10 @@ a{
     text-decoration-line: none;
 }
 
+button{
+    cursor: pointer;
+}
+
 .header-logo{
    font-weight: 700;
    font-size: 18px;
@@ -23,6 +27,10 @@ a{
     font-style: italic;
 }
 
+.header-menu-link:hover,.header-menu-link:focus{
+    color: #fd9222;
+}
+
 .header-menu-link{
     font-weight: 500;
     font-size: 14px;
@@ -32,4 +40,197 @@ a{
     color: #111;
 }
 
+.loved{
+    background: rgba(17, 17, 17, 0.6);
+}
 
+.loved-head{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.loved-btn{
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.loved-made{
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.loved-scroll{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.about{
+    background: #1e1823;
+}
+
+.about-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.about-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.ingredients-head{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.ingredients-part{
+    color: #fd9222;
+}
+
+.ingredients-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.ingredients-title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.products-head-part{
+    color: #fd9222;
+}
+
+.products-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.products-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.sellers-head-part{
+    color: #fd9222;
+}
+
+.sellers-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.choklate-head-part{
+    color: #fd9222;
+}
+
+.choklate-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111;
+}
+
+.choklate-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn{
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+
+.footer{
+    background: #1e1823;
+}
+
+.footer-head{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #fd9222;
+}
+
+.footer-head-part{
+    color: #fff;
+}
+
+.footer-networks{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-contact-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    font-style: italic;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
