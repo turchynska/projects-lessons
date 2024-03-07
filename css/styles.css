@@ -1,9 +1,21 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+header{
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 ul{
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 a{
@@ -13,6 +25,34 @@ a{
 button{
     cursor: pointer;
 }
+
+address{
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .container{
+    width: 1136px;
+    margin: 0 auto;
+  }
+
+  .wrapper-head{
+    padding: 380px 40px 40px 40px;
+    background: rgba(17, 17, 17, 0.6);
+    border-radius: 30px;
+  }
 
 .header-logo{
    font-weight: 700;
@@ -41,7 +81,8 @@ button{
 }
 
 .loved{
-    background: rgba(17, 17, 17, 0.6);
+    padding-bottom: 80px;
+   
 }
 
 .loved-head{
@@ -50,6 +91,8 @@ button{
     line-height: 1.22;
     letter-spacing: -0.03em;
     color: #fff;
+    margin-bottom: 32px;
+   max-width: 484px;
 }
 
 .loved-btn{
@@ -100,6 +143,11 @@ button{
     color: #111;
 }
 
+.ingredients{
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+
 .ingredients-head{
     font-weight: 600;
     font-size: 24px;
@@ -108,6 +156,10 @@ button{
     text-transform: uppercase;
     text-align: center;
     color: #111;
+    max-width: 412px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+
 }
 
 .ingredients-part{
@@ -121,6 +173,9 @@ button{
     letter-spacing: -0.02em;
     text-align: center;
     color: #111;
+    max-width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .ingredients-title{
@@ -130,6 +185,10 @@ button{
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #fff;
+}
+
+.ingredients-taste{
+    color: #111;
 }
 
 .products-head-part{
