@@ -55,9 +55,12 @@ img{
   .wrapper-head{
     padding: 380px 40px 40px 40px;
     background: rgba(17, 17, 17, 0.6);
+    background-image: linear-gradient(180deg,rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/chocolate_main.jpg);
     border-radius: 30px;
   }
-
+.loved-img{
+ border-radius: 50px;
+}
   .header-navigation{
     display: flex;
     align-items: center;
@@ -104,6 +107,11 @@ img{
 .header-contact-list{
     display: flex;
     gap: 14px;
+}
+
+.header-contact-icon{
+   fill: transparent;
+   stroke: #111;;
 }
 
 .header-menu-item{}
@@ -293,6 +301,10 @@ img{
     color: #111;
 }
 
+.made{
+    padding-bottom: 120px;
+}
+
 .made-head{
     margin-bottom: 50px;
 }
@@ -320,6 +332,27 @@ img{
     letter-spacing: -0.02em;
     color: #111;
 
+}
+
+.products{
+    padding-bottom: 120px;
+}
+
+.products-item{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.products-list{
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    width: 270px;
+    height: 364px;
+    background: #fff;
+}
+
+.products-head{
+    margin-bottom: 50px;
 }
 
 .products-head-part{
